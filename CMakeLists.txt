@@ -4,11 +4,12 @@ project(shell-starter-cpp)
 
 file(GLOB_RECURSE SOURCE_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
 
-set(CMAKE_CXX_STANDARD 23) # Enable the C++23 standard
+set(CMAKE_CXX_STANDARD 23)
 
 add_executable(shell ${SOURCE_FILES})
 target_include_directories(shell PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
+# Use vcpkg toolchain
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(readline REQUIRED IMPORTED_TARGET readline)
 target_link_libraries(shell PRIVATE PkgConfig::readline)
