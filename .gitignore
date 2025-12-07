@@ -1,0 +1,16 @@
+# Build folders
+build/
+out/
+bin/
+
+# VS Code settings
+.vscode/
+
+# Binaries
+*.exe
+*.o
+*.obj
+*.pdb
+*.dll
+*.so
+*.cache

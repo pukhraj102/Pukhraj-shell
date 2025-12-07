@@ -1,0 +1,17 @@
+{
+    "name": "C++ Shell Dev",
+    "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cmake-tools-helper"
+            ]
+        }
+    },
+    "postCreateCommand": "sudo apt update && sudo apt install -y libreadline-dev"
+}
