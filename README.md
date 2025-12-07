@@ -1,4 +1,4 @@
-# 🐚 Pukhraj Shell — A Minimal Unix-like Shell (C++23)
+# 🐚 Pukhraj Shell — A Custom Shell built from Scratch (C++23)
 
 A from-scratch implementation of a Unix-style interactive shell written in **modern C++23**, featuring job control, pipelines, command parsing, auto-complete, history, and more.
 
@@ -163,4 +163,10 @@ is parsed into a **vector of Command objects**.
 
 ```bash
 chmod +x ./your_program.sh
+
 ./your_program.sh
+```
+
+## Authors
+
+Made with ❤️ by [pukhraj102](https://github.com/pukhraj102)
