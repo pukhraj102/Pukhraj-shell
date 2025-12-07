@@ -25,8 +25,5 @@ This project runs **100% online** using GitHub Codespaces — no installation re
 3. Run:
 
 ```bash
-mkdir build
-cd build
-cmake ..
-make
-./shell
+chmod +x ./your_program.sh
+./your_program.sh
