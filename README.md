@@ -38,8 +38,7 @@ ls | grep cpp | wc -l
 ### ✨ Quality-of-Life Features
 - **Command history** (Up/Down arrows)
 - **Auto-complete** (Tab)
-- **Line editing** via GNU `readline`
-- Optional colored prompt
+- **Line editing** via `readline`
 
 ### 📚 Error Handling
 - Unknown commands  
@@ -170,3 +169,4 @@ chmod +x ./your_program.sh
 ## Authors
 
 Made with ❤️ by [pukhraj102](https://github.com/pukhraj102)
+
